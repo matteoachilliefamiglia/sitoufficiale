@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Albero Genealogico — Matteo Achilli e Famiglia S.r.l.</title>
+    <meta
+      name="description"
+      content="La continuità familiare come fondamento di una visione millenaria."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700&family=Cormorant+Garamond:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body class="tree-page">
+    <div class="site-shell">
+      <header class="site-header">
+        <div class="container header-inner tree-header-inner">
+          <a class="back-link" href="index.html">← Torna alla Home</a>
+          <div class="tree-branding">
+            <span class="brand-title">Famiglia Achilli</span>
+            <span class="brand-subtitle">Albero Genealogico</span>
+          </div>
+        </div>
+      </header>
+
+      <main class="tree-main">
+        <div class="tree-background" aria-hidden="true">
+          <div class="tree-background-glow tree-background-glow-left"></div>
+          <div class="tree-background-glow tree-background-glow-right"></div>
+
+          <svg class="tree-branches tree-branches-left" viewBox="0 0 640 1200" fill="none" preserveAspectRatio="xMinYMin slice">
+            <path style="--branch-delay: 0.12s" d="M 38 1130 C 126 986, 144 860, 160 730 S 214 462, 268 320 C 304 224, 342 156, 394 82" />
+            <path style="--branch-delay: 0.42s" d="M 156 760 C 114 668, 98 574, 104 468 C 112 376, 144 290, 196 214" />
+            <path style="--branch-delay: 0.74s" d="M 171 656 C 236 610, 292 548, 332 474 C 370 404, 390 328, 392 250" />
+            <path style="--branch-delay: 1.02s" d="M 202 514 C 172 438, 170 360, 198 284 C 220 226, 258 172, 314 124" />
+            <path style="--branch-delay: 1.28s" d="M 278 388 C 330 368, 382 332, 430 278 C 474 228, 508 170, 536 96" />
+            <path style="--branch-delay: 1.56s" d="M 126 896 C 214 838, 280 778, 338 688 C 390 608, 422 526, 452 430" />
+          </svg>
+
+          <svg class="tree-branches tree-branches-right" viewBox="0 0 640 1200" fill="none" preserveAspectRatio="xMaxYMin slice">
+            <path style="--branch-delay: 0.24s" d="M 602 1132 C 514 1002, 488 882, 478 742 C 468 602, 426 432, 344 284 C 306 216, 262 148, 204 82" />
+            <path style="--branch-delay: 0.56s" d="M 490 810 C 534 700, 544 592, 530 484 C 516 386, 478 294, 420 208" />
+            <path style="--branch-delay: 0.84s" d="M 470 656 C 398 608, 340 548, 298 468 C 258 392, 244 310, 248 226" />
+            <path style="--branch-delay: 1.14s" d="M 426 522 C 454 438, 450 356, 418 278 C 392 214, 352 162, 290 118" />
+            <path style="--branch-delay: 1.44s" d="M 354 390 C 304 364, 254 324, 208 270 C 164 218, 130 160, 104 96" />
+            <path style="--branch-delay: 1.72s" d="M 526 920 C 450 860, 382 790, 330 700 C 280 612, 248 530, 214 430" />
+          </svg>
+
+          <div class="tree-branch-mist tree-branch-mist-left"></div>
+          <div class="tree-branch-mist tree-branch-mist-right"></div>
+        </div>
+        <section class="section reveal tree-hero">
+          <div class="container wide">
+            <div class="section-heading section-heading-center tree-title-block">
+              <p class="eyebrow">Tre Generazioni</p>
+              <h1>Albero Genealogico</h1>
+              <div class="tree-title-divider"></div>
+              <p>
+                La continuità familiare come fondamento di una visione millenaria.
+                Ogni generazione costruisce sulle radici di chi l'ha preceduta.
+              </p>
+            </div>
+
+            <div class="family-tree" data-family-tree data-heir-reveal-tree>
+              <svg class="tree-connector-canvas" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+                <path class="tree-connector tree-connector-glow" data-tree-connector="parent-1"></path>
+                <path class="tree-connector tree-connector-glow" data-tree-connector="parent-2"></path>
+                <path class="tree-connector" data-tree-connector="parent-1"></path>
+                <path class="tree-connector" data-tree-connector="parent-2"></path>
+              </svg>
+
+              <section class="tree-generation reveal">
+                <p class="generation-label">Prima Generazione</p>
+                <div class="family-row dual">
+                  <article class="family-card heir-card" style="--heir-reveal-delay: 0ms" data-heir-reveal-item>
+                    <span class="heir-badge">I Erede</span>
+                    <div class="monogram">RA</div>
+                    <h2>Remo Achilli</h2>
+                  </article>
+                  <div class="marriage-node" aria-hidden="true" data-tree-union="parent-1"></div>
+                  <article class="family-card">
+                    <div class="monogram">PL</div>
+                    <h2>Patrizia Lopez</h2>
+                  </article>
+                </div>
+              </section>
+
+              <section class="tree-generation reveal">
+                <p class="generation-label">Seconda Generazione</p>
+                <div class="family-row dual">
+                  <article class="family-card heir-card" data-tree-child="parent-1" style="--heir-reveal-delay: 110ms" data-heir-reveal-item>
+                    <span class="heir-badge">II Erede</span>
+                    <div class="monogram">MA</div>
+                    <h2>Matteo Achilli</h2>
+                    <p>Fondatore</p>
+                  </article>
+                  <div class="marriage-node" aria-hidden="true" data-tree-union="parent-2"></div>
+                  <article class="family-card">
+                    <div class="monogram">AR</div>
+                    <h2>Arylu Reyes</h2>
+                  </article>
+                </div>
+              </section>
+
+              <section class="tree-generation reveal">
+                <p class="generation-label">Terza Generazione</p>
+                <div class="family-row single">
+                  <article class="family-card heir-card" data-tree-child="parent-2" style="--heir-reveal-delay: 220ms" data-heir-reveal-item>
+                    <span class="heir-badge">III Erede</span>
+                    <div class="monogram">EA</div>
+                    <h2>Emma Achilli</h2>
+                  </article>
+                </div>
+              </section>
+            </div>
+
+
+            <div class="tree-quote reveal">
+              <div class="tree-title-divider short"></div>
+              <blockquote>"Le radici profonde non temono il vento"</blockquote>
+              <p>Motto della Famiglia Achilli</p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer tree-footer">
+        <div class="container footer-bottom tree-footer-bottom">
+          <div class="footer-legal">
+            <p>© 2026 - 3026 Matteo Achilli e Famiglia S.r.l.</p>
+            <p>Sede legale: Via dei Fienaroli, 36 - 00153 Roma (RM) · P. IVA e C.F. 18522071002</p>
+            <p>Capitale Sociale 100,00 € Interamente Versato</p>
+          </div>
+          <a href="index.html">Torna alla Home</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
